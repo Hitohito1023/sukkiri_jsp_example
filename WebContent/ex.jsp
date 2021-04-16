@@ -11,13 +11,13 @@ Employee emp = new Employee("0001", "湊雄介");
 <title>Employee</title>
 </head>
 <body>
-<% for(int i = 0;i < 10; i++){ %>
-	<% if(i % 3 == 0){ %>
-		<p style="color:red">
-	<% } else { %>
-		<p>
+	<% for(int i = 0;i < 10; i++){ %>
+		<% if(i % 3 == 0){ %>
+			<p style="color:red">
+		<% } else { %>
+			<p>
+		<% } %>
+			IDは<%= emp.getId() %>、名前は<%= emp.getName() %>です!!</p>
 	<% } %>
-	IDは<%= emp.getId() %>、名前は<%= emp.getName() %>です!!</p>
-<% } %>
 </body>
 </html>
