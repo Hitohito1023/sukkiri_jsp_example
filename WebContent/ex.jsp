@@ -17,7 +17,7 @@ Employee emp = new Employee("0001", "湊雄介");
 	<% } else { %>
 		<p>
 	<% } %>
-	IDは<%= emp.getId() %>、名前は<%= emp.getName() %>です</p>
+	IDは<%= emp.getId() %>、名前は<%= emp.getName() %>です!!</p>
 <% } %>
 </body>
 </html>
